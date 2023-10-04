@@ -91,28 +91,7 @@ export default defineConfig({
       },
       ],
     },
-    {
-      name: "tag",
-      label: "tags",
-      type: "string",
-      list: true,
-      searchable: false,
-      ui: {
-        validate: (value, data)=>{
-          const num_of_categories = value?.length;
-          if(num_of_categories > 7 ){
-            return `Cannot exceed 7 ${value}`
-          }
-        }
-      }
-    },
-    {
-      type: "rich-text",
-      name: "body",
-      label: "Body",
-      isBody: true,
-    },
-    ],
+    ]
   },
   search: {
     tina: {
