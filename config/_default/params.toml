@@ -5,7 +5,7 @@ uniqueHomePage = true # change to false to add sidebar to homepage
 
 blogDir = "blog" # can be posts, blog e.t.c
 
-repo = "https://github.com/onweru/compose"
+repo = "https://github.com/TeroHost/docs"
 
 time_format_blog = "Monday, January 02, 2006"
 time_format_default = "January 2, 2006"
@@ -16,12 +16,12 @@ defaultLightingMode = "auto" # other possible values: "dark", "light"
 codeMaxLines = 10
 
 # show/hide line numbers by default. Switch to `true` if you'd rather have them on.
-showLineNumbers = false
+showLineNumbers = true
 
 # By default the template will look for icons under the icons directory. In some situations you might wanna change that. edit the line below
 # iconsPath = 'icons/'
 
-otherSearchableFields = ["Tags", "Categories", "CustomField"] # As they appear in frontmatter
+otherSearchableFields = ["Tags", "Categories"] # As they appear in frontmatter
 
 # Defaults to true if not set
 # Enable copyRight Footer Stamp. Takes in attribution
@@ -39,14 +39,14 @@ key = "da87401a458102ec6bbd6cc5e5cf8d95" # Search-Only API Key
 
 # Site logo
 [logo]
-  lightMode = "images/compose.svg"
-  darkMode = "images/compose-light.svg"
+  lightMode = "images/logo.png"
+  darkMode = "images/logo.png"
 
 [source]
   name = "GitHub"
   iconLight = "images/GitHubMarkLight.svg"
   iconDark = "images/GitHubMarkDark.svg"
-  url = "https://github.com/onweru/compose/"
+  url = "https://github.com/TeroHost/docs"
 
 # optional
 # attribution. Feel free to delete this

@@ -1,25 +1,21 @@
 #  menu items
 [[main]]
-  name = "Blog"
+  name = "Billing"
+  weight = 6
+  url = "https://my.terohost.com"
+
+[[main]]
+  name = "Game Panel"
   weight = 5
-  url = "blog/"
+  url = "https://panel.terohost.com"
+
+[[main]]
+  name = "Discord"
+  weight = 4
+  url = "https://discord.terohost.com"
 
 [[main]]
   name = "Docs"
-  weight = 2
-  url = "docs/"
-
-[[main]]
-  name = "Tutorials"
-  weight = 2
-  url = "tutorials/"
-
-[[main]]
-  name = "Example"
   weight = 3
-  url = "https://docs.neuralvibes.com"
+  url = "/docs/"
 
-# [[main]]
-#   name = "Blog"
-#   weight = 4
-#   url = "blog/"
