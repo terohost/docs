@@ -65,7 +65,7 @@ jobs:
           TINA_CONTENT_TOKEN: ${{ secrets.TINA_CONTENT_TOKEN }}
           TINA_SEARCH_TOKEN: ${{ secrets.TINA_SEARCH_TOKEN }}
         run: |
-          npm run tinacms build && hugo \
+          npx tinacms build && hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
