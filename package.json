@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@tinacms/cli": "^1.5.26",
-    "tinacms": "^1.5.17"
+    "@tinacms/cli": "^1.5.30",
+    "tinacms": "^1.5.21"
   }
 }
