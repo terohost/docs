@@ -21,7 +21,7 @@ Or, [generate graphs, charts](docs/compose/graphs-charts-tables/#show-a-pie-doug
 {{\< button "docs/compose/" "Read the Docs" >}}{{\< button "https://github.com/onweru/compose" "Download Theme" >}}
 {{\< /column >}}
 
-{{\< column >}}
-![diy](/images/scribble.jpg)
-{{\< /column >}}
-{{\< /block >}}
+{{< column >}}
+![diy](/images/herodocs.jpg)
+{{< /column >}}
+{{< /block >}}
